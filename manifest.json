@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "WEbDle",
+  "version": "1.0.2",
+  "description": "Juego de adivinar palabras de 5 letras usando una palabra al azar de la página que estás viendo.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Jugar a WEbDle con esta página",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "minimum_chrome_version": "105"
+}

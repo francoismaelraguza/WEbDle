@@ -1,0 +1,7 @@
+# Paquetes generados con package.ps1
+dist/
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
